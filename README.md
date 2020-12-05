@@ -78,6 +78,10 @@ Please see the main mt32-pi Project (https://github.com/dwhinham/mt32-pi) on how
 | J5        | Hitachi HD44780 | 1        | Amazon or eBay |
 | Pi        | Header| 1 | https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-110-03-T-D?qs=rU5fayqh%252BE2PVxAFHKyYdw%3D%3D |
 
+
+You may want to get some general Pin Headers 2.54mm, only 1 extra pin is used to stabilise the DAC's for when pushing in the headphone jack.
+
+
 [**THT Interactive BOM**][IBOMTHT1_5]
 
 
