@@ -45,6 +45,17 @@ The 128x64 OLED connects on the board at this position here.
 
 You will need to put some none conductive material under the OLED,<br>so it does not short agains the Pins of the Raspberry Pi.
 
+When you buy your screen, make sure the PIN order is as follow's (left to right, looking down on the screen):-
+
+| 1 | 2 | 3 | 4 |
+|---|---|---|---|
+|GND|VCC|SCL|SDA|
+
+You can see this in the photo above.
+
+Some SSD1306 OLED's have Pins 1 and 2 swapped, which will be bad. So please double check.
+
+
 ***Hitachi HD44780***
 
 [<img width="100rem" align="right" src="pics/Hitachi_HD44780.jpg">](pics/Hitachi_HD44780.jpg)
