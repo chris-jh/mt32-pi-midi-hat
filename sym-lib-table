@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MT32)(type Legacy)(uri ${KIPRJMOD}/libs/MT32.lib)(options "")(descr ""))
+  (lib (name mt32-pi-midi-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/mt32-pi-midi-hat-rescue.lib)(options "")(descr ""))
+)

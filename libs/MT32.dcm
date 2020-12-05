@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCM5101
+D 2VRMS DirectPath, 106dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5101.pdf
+$ENDCMP
+#
+$CMP PCM5102
+D 2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5102.pdf
+$ENDCMP
+#
+$CMP PCM510x
+D 2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20
+K audio dac 2ch 32bit 384kHz
+F http://www.ti.com/lit/ds/symlink/pcm5100.pdf
+$ENDCMP
+#
+#End Doc Library
