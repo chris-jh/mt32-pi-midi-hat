@@ -49,7 +49,7 @@ You will need to put some none conductive material under the OLED,<br>so it does
 
 [<img width="100rem" align="right" src="pics/Hitachi_HD44780.jpg">](pics/Hitachi_HD44780.jpg)
 
-There are two versions of this screen, one that communicates via the i2c (like the above OLEDS) or a direct connection which is currently untested on my PCB.
+There are two versions of this screen, one that communicates via the i2c (like the above OLEDS) or a direct connection which is currently untested on my PCB, also the current connections to the Pi may change at a later date. So best not to use the direct connection HD44780.
 
 To use the i2c version you will need to connect the screen to one of the OLED connections J2 or J3 on the PCB.
 
