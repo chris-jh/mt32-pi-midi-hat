@@ -47,7 +47,7 @@ You will need to put some none conductive material under the OLED,<br>so it does
 
 ***Hitachi HD44780***
 
-[<img width="100rem" align="right" src="pics/HITACHI_HD44780.jpg">](pics/HITACHI_HD44780.jpg)
+[<img width="100rem" align="right" src="pics/Hitachi_HD44780.jpg">](pics/Hitachi_HD44780.jpg)
 
 There are two versions of this screen, one that communicates via the i2c (like the above OLEDS) or a direct connection which is currently untested on my PCB.
 
@@ -82,4 +82,4 @@ Please see the main mt32-pi Project (https://github.com/dwhinham/mt32-pi) on how
 
 
 
-[IBOMTHT1_5]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/chris-jh/mt32-pi-midi-hat/master/bom/mt32-pi-midi-hat_bom_v1_5.html.html
+[IBOMTHT1_5]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/chris-jh/mt32-pi-midi-hat/main/bom/mt32-pi-midi-hat_bom_v1_5.html
