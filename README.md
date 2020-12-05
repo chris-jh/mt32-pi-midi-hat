@@ -85,6 +85,8 @@ You may want to get some general Pin Headers 2.54mm, only 1 extra pin is used to
 [**THT Interactive BOM**][IBOMTHT1_5]
 
 
+## !!!!! WARNING !!!!!
 
+Use at your own risk. I accept no responsibility if this damages any of your equipment.
 
 [IBOMTHT1_5]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/chris-jh/mt32-pi-midi-hat/main/bom/mt32-pi-midi-hat_bom_v1_5.html
