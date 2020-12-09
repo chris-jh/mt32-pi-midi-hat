@@ -87,7 +87,7 @@ Please see the main mt32-pi Project (https://github.com/dwhinham/mt32-pi) on how
 | J2 or J3    | SSD1306 OLED | 1        | Amazon or eBay |
 | J4 or J6    | DAC GY-PCM5102<br>or<br>CJMCU-5102  | 1        | Amazon or eBay |
 | J5        | Hitachi HD44780 | 1        | Amazon or eBay |
-| Pi        | Header| 1 | https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-110-03-T-D?qs=rU5fayqh%252BE2PVxAFHKyYdw%3D%3D |
+| Pi        | Header| 1 | https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-23-G-D?qs=rU5fayqh%252BE1BMVd%252BDZONqg%3D%3D |
 
 
 You may want to get some general Pin Headers 2.54mm, only 1 extra pin is used to stabilise the DAC's for when pushing in the headphone jack.
