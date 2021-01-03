@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
+Title "mt32-pi-midi-hat"
+Date "2021-01-03"
+Rev "1.6"
 Comp ""
-Comment1 ""
+Comment1 "https://github.com/dwhinham/mt32-pi"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -37,15 +37,11 @@ Wire Wire Line
 	4725 3400 4325 3400
 NoConn ~ 4725 2700
 NoConn ~ 4725 3000
-NoConn ~ 4725 3100
 NoConn ~ 4725 3500
-NoConn ~ 4725 3800
-NoConn ~ 4725 3900
 NoConn ~ 4725 4000
 NoConn ~ 4725 4100
 NoConn ~ 4725 4200
 NoConn ~ 6325 4300
-NoConn ~ 6325 3300
 NoConn ~ 6325 2800
 Wire Wire Line
 	5125 4900 5225 4900
@@ -65,20 +61,6 @@ F 3 "" H 5525 5150 50  0001 C CNN
 	1    5525 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6325 4000 6850 4000
-Wire Wire Line
-	6325 3900 6850 3900
-Wire Wire Line
-	6325 4100 6850 4100
-Wire Wire Line
-	6325 3400 6850 3400
-Wire Wire Line
-	6325 3500 6850 3500
-Wire Wire Line
-	6850 2700 6325 2700
-Wire Wire Line
-	6325 4400 6850 4400
 NoConn ~ 6325 3800
 NoConn ~ 6325 3700
 Wire Wire Line
@@ -110,20 +92,6 @@ F 3 "" H 4200 2300 50  0001 C CNN
 	1    4200 2300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6850 3400 2    50   Input ~ 0
-D5
-Text GLabel 6850 3500 2    50   Input ~ 0
-D6
-Text GLabel 6850 4000 2    50   Input ~ 0
-RS
-Text GLabel 6850 3900 2    50   Input ~ 0
-RW
-Text GLabel 6850 4100 2    50   Input ~ 0
-EN
-Text GLabel 6850 4400 2    50   Input ~ 0
-D7
-Text GLabel 6850 2700 2    50   Input ~ 0
-D4
 Text GLabel 6850 3100 2    50   Input ~ 0
 SCL
 Text GLabel 6850 3000 2    50   Input ~ 0
@@ -166,34 +134,6 @@ F 3 "" H 1225 6400 50  0001 C CNN
 	1    1225 6400
 	0    1    1    0   
 $EndComp
-Text GLabel 3675 7000 0    50   Input ~ 0
-D7
-Text GLabel 3675 6900 0    50   Input ~ 0
-D6
-Text GLabel 3675 6800 0    50   Input ~ 0
-D5
-Text GLabel 3675 6700 0    50   Input ~ 0
-D4
-Text GLabel 3675 6600 0    50   Input ~ 0
-EN
-Text GLabel 3675 6500 0    50   Input ~ 0
-RW
-Text GLabel 3675 6400 0    50   Input ~ 0
-RS
-Wire Wire Line
-	4200 7000 3675 7000
-Wire Wire Line
-	4200 6800 3675 6800
-Wire Wire Line
-	4200 6900 3675 6900
-Wire Wire Line
-	4200 6600 3675 6600
-Wire Wire Line
-	4200 6700 3675 6700
-Wire Wire Line
-	4200 6400 3675 6400
-Wire Wire Line
-	4200 6500 3675 6500
 $Comp
 L Connector_Generic:Conn_01x06 J4
 U 1 1 5F9062F0
@@ -438,57 +378,6 @@ F 3 "~" H 1950 6700 50  0001 C CNN
 	1    1950 6700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4725 4300
-$Comp
-L Connector_Generic:Conn_01x10 J6
-U 1 1 5FBF9F1A
-P 4400 6800
-F 0 "J6" H 4480 6792 50  0000 L CNN
-F 1 "Hitachi HD44780" H 4480 6701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4400 6800 50  0001 C CNN
-F 3 "~" H 4400 6800 50  0001 C CNN
-	1    4400 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 7100 3800 7100
-$Comp
-L power:+5V #PWR0116
-U 1 1 5FC007E0
-P 3800 7100
-F 0 "#PWR0116" H 3800 6950 50  0001 C CNN
-F 1 "+5V" V 3815 7228 50  0000 L CNN
-F 2 "" H 3800 7100 50  0001 C CNN
-F 3 "" H 3800 7100 50  0001 C CNN
-	1    3800 7100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5FC053A6
-P 3800 7300
-F 0 "#PWR0117" H 3800 7050 50  0001 C CNN
-F 1 "GND" V 3805 7172 50  0000 R CNN
-F 2 "" H 3800 7300 50  0001 C CNN
-F 3 "" H 3800 7300 50  0001 C CNN
-	1    3800 7300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3800 7300 4200 7300
-Wire Wire Line
-	4200 7200 3800 7200
-$Comp
-L power:+3V3 #PWR0118
-U 1 1 5FC0A758
-P 3800 7200
-F 0 "#PWR0118" H 3800 7050 50  0001 C CNN
-F 1 "+3V3" V 3815 7328 50  0000 L CNN
-F 2 "" H 3800 7200 50  0001 C CNN
-F 3 "" H 3800 7200 50  0001 C CNN
-	1    3800 7200
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 1750 5775
 $Comp
 L Connector_Generic:Conn_01x01 J8
@@ -537,4 +426,239 @@ Wire Wire Line
 Wire Wire Line
 	1750 4700 1750 4600
 Connection ~ 1750 4600
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FF27D81
+P 4550 5605
+F 0 "SW1" H 4550 5890 50  0000 C CNN
+F 1 "BUTTON_1" H 4550 5799 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 4550 5805 50  0001 C CNN
+F 3 "~" H 4550 5805 50  0001 C CNN
+	1    4550 5605
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FF2BD63
+P 4550 6000
+F 0 "SW2" H 4550 6285 50  0000 C CNN
+F 1 "BUTTON_2" H 4550 6194 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 4550 6200 50  0001 C CNN
+F 3 "~" H 4550 6200 50  0001 C CNN
+	1    4550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FF2CC69
+P 4550 6835
+F 0 "SW4" H 4550 7120 50  0000 C CNN
+F 1 "BUTTON_4" H 4550 7029 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 4550 7035 50  0001 C CNN
+F 3 "~" H 4550 7035 50  0001 C CNN
+	1    4550 6835
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5605 4350 6000
+Connection ~ 4350 6000
+Wire Wire Line
+	4350 6000 4350 6430
+Connection ~ 4350 6430
+Wire Wire Line
+	4350 6430 4350 6835
+Connection ~ 4350 6835
+Wire Wire Line
+	4350 6835 4350 6985
+$Comp
+L power:GND #PWR0116
+U 1 1 5FF2FDD7
+P 4350 6985
+F 0 "#PWR0116" H 4350 6735 50  0001 C CNN
+F 1 "GND" H 4355 6812 50  0000 C CNN
+F 2 "" H 4350 6985 50  0001 C CNN
+F 3 "" H 4350 6985 50  0001 C CNN
+	1    4350 6985
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5605 5045 5605
+Wire Wire Line
+	4750 6000 5045 6000
+Wire Wire Line
+	4750 6430 5045 6430
+Wire Wire Line
+	4750 6835 5045 6835
+Text GLabel 5045 5605 2    50   Input ~ 0
+BUTTON_1
+Text GLabel 5045 6000 2    50   Input ~ 0
+BUTTON_2
+Text GLabel 5045 6430 2    50   Input ~ 0
+BUTTON_3
+Text GLabel 5045 6835 2    50   Input ~ 0
+BUTTON_4
+Text GLabel 4325 3100 0    50   Input ~ 0
+BUTTON_1
+Wire Wire Line
+	4725 3100 4325 3100
+Text GLabel 4325 4300 0    50   Input ~ 0
+BUTTON_2
+Wire Wire Line
+	4725 4300 4325 4300
+Text GLabel 4325 3800 0    50   Input ~ 0
+BUTTON_3
+Wire Wire Line
+	4725 3800 4325 3800
+Text GLabel 4325 3900 0    50   Input ~ 0
+BUTTON_4
+Wire Wire Line
+	4725 3900 4325 3900
+Wire Wire Line
+	6325 3300 6850 3300
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5FF5E1E4
+P 6525 6190
+F 0 "J6" H 6605 6182 50  0000 L CNN
+F 1 "CONTROL_PINS" H 6605 6091 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6525 6190 50  0001 C CNN
+F 3 "https://www.amazon.co.uk/TECNOIOT-PCM5102-GY-PCM5102-Interface-PCM5102A/dp/B07VKQKT9H/" H 6525 6190 50  0001 C CNN
+	1    6525 6190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 5990 6030 5990
+Text GLabel 6030 5990 0    50   Input ~ 0
+BUTTON_1
+Wire Wire Line
+	6325 6090 6030 6090
+Text GLabel 6030 6090 0    50   Input ~ 0
+BUTTON_2
+Wire Wire Line
+	6325 6190 6030 6190
+Text GLabel 6030 6190 0    50   Input ~ 0
+BUTTON_3
+Wire Wire Line
+	6325 6290 6030 6290
+Text GLabel 6030 6290 0    50   Input ~ 0
+BUTTON_4
+Wire Wire Line
+	6325 6390 6030 6390
+Text GLabel 6850 3300 2    50   Input ~ 0
+BUTTON_5
+Text GLabel 6030 6390 0    50   Input ~ 0
+BUTTON_5
+NoConn ~ 6325 4400
+NoConn ~ 6325 4100
+NoConn ~ 6325 4000
+NoConn ~ 6325 3900
+NoConn ~ 6325 3500
+NoConn ~ 6325 3400
+NoConn ~ 6325 2700
+Wire Wire Line
+	6325 6490 6030 6490
+$Comp
+L power:GND #PWR0117
+U 1 1 5FFBF864
+P 6030 6490
+F 0 "#PWR0117" H 6030 6240 50  0001 C CNN
+F 1 "GND" H 6035 6317 50  0000 C CNN
+F 2 "" H 6030 6490 50  0001 C CNN
+F 3 "" H 6030 6490 50  0001 C CNN
+	1    6030 6490
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FF2C336
+P 4550 6430
+F 0 "SW3" H 4550 6715 50  0000 C CNN
+F 1 "BUTTON_3" H 4550 6624 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 4550 6630 50  0001 C CNN
+F 3 "~" H 4550 6630 50  0001 C CNN
+	1    4550 6430
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5FF492BB
+P 3185 5985
+F 0 "SW6" H 3185 6270 50  0000 C CNN
+F 1 "BUTTON_2" H 3185 6179 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 3185 6185 50  0001 C CNN
+F 3 "~" H 3185 6185 50  0001 C CNN
+	1    3185 5985
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5FF492C1
+P 3185 6820
+F 0 "SW8" H 3185 7105 50  0000 C CNN
+F 1 "BUTTON_4" H 3185 7014 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 3185 7020 50  0001 C CNN
+F 3 "~" H 3185 7020 50  0001 C CNN
+	1    3185 6820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2985 5590 2985 5985
+Connection ~ 2985 5985
+Wire Wire Line
+	2985 5985 2985 6415
+Connection ~ 2985 6415
+Wire Wire Line
+	2985 6415 2985 6820
+Connection ~ 2985 6820
+Wire Wire Line
+	2985 6820 2985 6970
+$Comp
+L power:GND #PWR?
+U 1 1 5FF492CE
+P 2985 6970
+F 0 "#PWR?" H 2985 6720 50  0001 C CNN
+F 1 "GND" H 2990 6797 50  0000 C CNN
+F 2 "" H 2985 6970 50  0001 C CNN
+F 3 "" H 2985 6970 50  0001 C CNN
+	1    2985 6970
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3385 5590 3680 5590
+Wire Wire Line
+	3385 5985 3680 5985
+Wire Wire Line
+	3385 6415 3680 6415
+Wire Wire Line
+	3385 6820 3680 6820
+Text GLabel 3680 5590 2    50   Input ~ 0
+BUTTON_1
+Text GLabel 3680 5985 2    50   Input ~ 0
+BUTTON_2
+Text GLabel 3680 6415 2    50   Input ~ 0
+BUTTON_3
+Text GLabel 3680 6820 2    50   Input ~ 0
+BUTTON_4
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5FF492DC
+P 3185 6415
+F 0 "SW7" H 3185 6700 50  0000 C CNN
+F 1 "BUTTON_3" H 3185 6609 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 3185 6615 50  0001 C CNN
+F 3 "~" H 3185 6615 50  0001 C CNN
+	1    3185 6415
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5FF492B5
+P 3185 5590
+F 0 "SW5" H 3185 5875 50  0000 C CNN
+F 1 "BUTTON_1" H 3185 5784 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_SLIM" H 3185 5790 50  0001 C CNN
+F 3 "~" H 3185 5790 50  0001 C CNN
+	1    3185 5590
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

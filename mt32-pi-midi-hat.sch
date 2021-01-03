@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "mt32-pi-midi-hat"
-Date "2020-12-05"
-Rev "1.5"
+Date "2021-01-03"
+Rev "1.6"
 Comp ""
 Comment1 "https://github.com/dwhinham/mt32-pi"
 Comment2 ""

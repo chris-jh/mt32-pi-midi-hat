@@ -1,12 +1,14 @@
 # mt32-pi-midi-hat
 A Raspberry Pi Midi Hat for the project mt32-pi by Dale Whinham (https://github.com/dwhinham/mt32-pi).
 
-![PCB](pics/header.jpg)
+![PCB](pics/new_header.jpg)
 
 This PCB is designed from the schematic available from the above project.
 
+Version 1.6 Copyright 2020 Chrissy
 
-Version 1.5 Copyright 2020 Chrissy
+* Removed Hitachi HD44780 4 bit connection, use i2c version
+* Added control pins and buttons, see (https://github.com/dwhinham/mt32-pi/wiki/Control-surface)
 
 
 ## Audio DAC's
@@ -60,9 +62,11 @@ Some SSD1306 OLED's have Pins 1 and 2 swapped, which will be bad. So please doub
 
 [<img width="100rem" align="right" src="pics/Hitachi_HD44780.jpg">](pics/Hitachi_HD44780.jpg)
 
-There are two versions of this screen, one that communicates via the i2c (like the above OLEDS) or a direct connection which is currently untested on my PCB, also the current connections to the Pi may change at a later date. So best not to use the direct connection HD44780.
+There are two versions of this screen, one that communicates via the i2c (like the above OLEDS) or a direct connection.
 
-To use the i2c version you will need to connect the screen to one of the OLED connections J2 or J3 on the PCB.
+I have removed the direction connection from v1.6 to give enough room to fit the control buttons.
+
+Use the i2c version only and you will need to connect the screen to one of the OLED connections J2 or J3 on the PCB.
 
 The Hitachi screen can also come in different sizes, ideally you want one that is 24 characters in length and either 2 or 4 lines.
 
@@ -74,7 +78,7 @@ Please see the main mt32-pi Project (https://github.com/dwhinham/mt32-pi) on how
 
 ### BOM
 
-![PCB_TOP](pics/board_top.jpg)
+![PCB_TOP](pics/new_board_top.png)
 
 | Reference | Value | Quantity | URL |
 |-----------|-------|----------|-----|
@@ -93,11 +97,11 @@ Please see the main mt32-pi Project (https://github.com/dwhinham/mt32-pi) on how
 You may want to get some general Pin Headers 2.54mm, only 1 extra pin is used to stabilise the DAC's for when pushing in the headphone jack.
 
 
-[**THT Interactive BOM**][IBOMTHT1_5]
+[**THT Interactive BOM**][IBOMTHT1_6]
 
 
 ## !!!!! WARNING !!!!!
 
 Use at your own risk. I accept no responsibility if this damages any of your equipment.
 
-[IBOMTHT1_5]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/chris-jh/mt32-pi-midi-hat/main/bom/mt32-pi-midi-hat_bom_v1_5.html
+[IBOMTHT1_6]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/chris-jh/mt32-pi-midi-hat/main/bom/mt32-pi-midi-hat_bom_v1_6.html
