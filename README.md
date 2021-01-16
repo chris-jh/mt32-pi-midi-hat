@@ -5,7 +5,11 @@ A Raspberry Pi Midi Hat for the project mt32-pi by Dale Whinham (https://github.
 
 This PCB is designed from the schematic available from the above project.
 
-Version 1.6 Copyright 2020 Chrissy
+Version 1.7 Copyright 2021 Chrissy
+
+* Fixed Silk Screen error on buttons for mt32/sf and Synth, they were opposite
+
+Version 1.6 Copyright 2021 Chrissy
 
 * Removed Hitachi HD44780 4 bit connection, use i2c version
 * Added control pins and buttons, see (https://github.com/dwhinham/mt32-pi/wiki/Control-surface)
