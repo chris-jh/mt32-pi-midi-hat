@@ -93,8 +93,8 @@ Please see the main mt32-pi Project (https://github.com/dwhinham/mt32-pi) on how
 | U1        | H11L1 | 1        | https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/H11L1M?qs=P36CEcFBmYxn5ViwkIckpw%3D%3D |
 | J1        | DIN-5 | 1        | https://www.mouser.co.uk/ProductDetail/490-SDS-50J |
 | J2 or J3    | SSD1306 OLED | 1        | Amazon or eBay |
-| J4 or J6    | DAC GY-PCM5102<br>or<br>CJMCU-5102  | 1        | Amazon or eBay |
-| J5        | Hitachi HD44780 | 1        | Amazon or eBay |
+| J4 or J5    | DAC GY-PCM5102<br>or<br>CJMCU-5102  | 1        | Amazon or eBay |
+| J6    | External Button Pin Header 1x6 | 1        | Amazon or eBay |
 | SW1,2,3,4 | Tact Switch 6x6mm | 4      | Amazon or eBay |
 | Pi        | Header| 1 | https://www.mouser.co.uk/ProductDetail/Samtec/SSQ-120-23-G-D?qs=rU5fayqh%252BE1BMVd%252BDZONqg%3D%3D |
 
