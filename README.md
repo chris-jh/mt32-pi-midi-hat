@@ -1,6 +1,12 @@
 # mt32-pi-midi-hat
 A Raspberry Pi Midi Hat for the project mt32-pi by Dale Whinham (https://github.com/dwhinham/mt32-pi).
 
+The Gerbers have been created from the recommendations at JLCPCB.
+
+(https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files)
+
+You may need to re-generate for your chosen PCB Manufacturer
+
 ![PCB](pics/new_header.jpg)
 
 This PCB is designed from the schematic available from the above project.
