@@ -11,6 +11,10 @@ The Gerbers have been created from the recommendations at JLCPCB.
 
 You may need to re-generate for your chosen PCB Manufacturer
 
+Version 1.7.1 Copyright 2021 Chrissy
+
+* Moved the Midi-Din slightly
+
 Version 1.7 Copyright 2021 Chrissy
 
 * Fixed Silk Screen error on buttons for mt32/sf and Synth, they were opposite
