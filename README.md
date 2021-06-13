@@ -86,7 +86,7 @@ I have removed the direction connection from v1.6 to give enough room to fit the
 
 Use the i2c version only and you will need to connect the screen to one of the OLED connections J2 or J3 on the PCB.
 
-The Hitachi screen can also come in different sizes, ideally you want one that is 24 characters in length and either 2 or 4 lines.
+The Hitachi screen can also come in different sizes, ideally you want one that is 20 characters in length and either 2 or 4 lines.
 
 <br>
 
