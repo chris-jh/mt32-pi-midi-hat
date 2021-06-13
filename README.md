@@ -11,6 +11,10 @@ The Gerbers have been created from the recommendations at JLCPCB.
 
 You may need to re-generate for your chosen PCB Manufacturer
 
+Version 1.7.2 Copyright 2021 Chrissy
+
+* Moved a trace that was too close to the mounting screw hole. Could cause a short is over tighten to expose the trace.
+
 Version 1.7.1 Copyright 2021 Chrissy
 
 * Moved the Midi-Din slightly
