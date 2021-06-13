@@ -13,7 +13,7 @@ You may need to re-generate for your chosen PCB Manufacturer
 
 Version 1.7.2 Copyright 2021 Chrissy
 
-* Moved a trace that was too close to the mounting screw hole. Could cause a short if over tighten to expose the trace.
+* Moved a trace that was too close to the mounting screw hole. Could cause a short if over tighten to expose the trace. (see https://github.com/chris-jh/mt32-pi-midi-hat/issues/3)
 
 Version 1.7.1 Copyright 2021 Chrissy
 
